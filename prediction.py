@@ -14,7 +14,7 @@ def load_model(model_path):
 # Load the dataset for reference
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:/Users/hp/OMDENA/capstone-project-1962vickyrena/data/tanzania_climate_data.csv")
+    return pd.read_csv("./data/tanzania_climate_data.csv")
 
 # Preprocessing function (replicate from your notebook)
 def preprocess_data(df):
